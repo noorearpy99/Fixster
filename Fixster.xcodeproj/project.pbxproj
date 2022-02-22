@@ -18,6 +18,9 @@
 		18A309B927C29A80003BECFF /* FixsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A309B827C29A80003BECFF /* FixsterUITestsLaunchTests.swift */; };
 		18B4B44F27C4939E00866D7E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4B44E27C4939E00866D7E /* MovieCell.swift */; };
 		18B4B45227C4999C00866D7E /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 18B4B45127C4999C00866D7E /* AlamofireImage */; };
+		6039C144F7AFA9462FDD8577 /* Pods_FixsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD73FA47BC81EAAC98A7ADB /* Pods_FixsterTests.framework */; };
+		A463396EADB463C8C6ABCAF6 /* Pods_Fixster_FixsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840978CD6A4FDE2BCA086D5D /* Pods_Fixster_FixsterUITests.framework */; };
+		EE862AED65A18B1FFA284B01 /* Pods_Fixster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88758B86177B51FE0758DEE5 /* Pods_Fixster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18073D42C0A483D85C59FDBE /* Pods-Fixster-FixsterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixster-FixsterUITests.release.xcconfig"; path = "Target Support Files/Pods-Fixster-FixsterUITests/Pods-Fixster-FixsterUITests.release.xcconfig"; sourceTree = "<group>"; };
 		18A3099227C29A7F003BECFF /* Fixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A3099527C29A7F003BECFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18A3099727C29A7F003BECFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +56,14 @@
 		18A309B627C29A80003BECFF /* FixsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixsterUITests.swift; sourceTree = "<group>"; };
 		18A309B827C29A80003BECFF /* FixsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		18B4B44E27C4939E00866D7E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		1F6980AE5EFB29F21B4C8B9D /* Pods-Fixster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixster.debug.xcconfig"; path = "Target Support Files/Pods-Fixster/Pods-Fixster.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB207C19EBC75B13DF36062 /* Pods-FixsterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixsterTests.release.xcconfig"; path = "Target Support Files/Pods-FixsterTests/Pods-FixsterTests.release.xcconfig"; sourceTree = "<group>"; };
+		75B1D4D9D8DE9121BFB1B96E /* Pods-FixsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixsterTests.debug.xcconfig"; path = "Target Support Files/Pods-FixsterTests/Pods-FixsterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		840978CD6A4FDE2BCA086D5D /* Pods_Fixster_FixsterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixster_FixsterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88758B86177B51FE0758DEE5 /* Pods_Fixster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fixster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8DDBE78DB6FA15F29D2134 /* Pods-Fixster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixster.release.xcconfig"; path = "Target Support Files/Pods-Fixster/Pods-Fixster.release.xcconfig"; sourceTree = "<group>"; };
+		BAD73FA47BC81EAAC98A7ADB /* Pods_FixsterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixsterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39641C57449ED6EE734C7D0 /* Pods-Fixster-FixsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fixster-FixsterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fixster-FixsterUITests/Pods-Fixster-FixsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18B4B45227C4999C00866D7E /* AlamofireImage in Frameworks */,
+				EE862AED65A18B1FFA284B01 /* Pods_Fixster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6039C144F7AFA9462FDD8577 /* Pods_FixsterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A463396EADB463C8C6ABCAF6 /* Pods_Fixster_FixsterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				18A309AB27C29A80003BECFF /* FixsterTests */,
 				18A309B527C29A80003BECFF /* FixsterUITests */,
 				18A3099327C29A7F003BECFF /* Products */,
+				26CE386E8808325AA7227CD0 /* Pods */,
+				6C69F5DECBD69DA3E00FA794 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,30 @@
 			path = FixsterUITests;
 			sourceTree = "<group>";
 		};
+		26CE386E8808325AA7227CD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F6980AE5EFB29F21B4C8B9D /* Pods-Fixster.debug.xcconfig */,
+				8A8DDBE78DB6FA15F29D2134 /* Pods-Fixster.release.xcconfig */,
+				E39641C57449ED6EE734C7D0 /* Pods-Fixster-FixsterUITests.debug.xcconfig */,
+				18073D42C0A483D85C59FDBE /* Pods-Fixster-FixsterUITests.release.xcconfig */,
+				75B1D4D9D8DE9121BFB1B96E /* Pods-FixsterTests.debug.xcconfig */,
+				6AB207C19EBC75B13DF36062 /* Pods-FixsterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C69F5DECBD69DA3E00FA794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88758B86177B51FE0758DEE5 /* Pods_Fixster.framework */,
+				840978CD6A4FDE2BCA086D5D /* Pods_Fixster_FixsterUITests.framework */,
+				BAD73FA47BC81EAAC98A7ADB /* Pods_FixsterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A309BC27C29A80003BECFF /* Build configuration list for PBXNativeTarget "Fixster" */;
 			buildPhases = (
+				F8B70EC41C4977FA7B56B1EA /* [CP] Check Pods Manifest.lock */,
 				18A3098E27C29A7F003BECFF /* Sources */,
 				18A3098F27C29A7F003BECFF /* Frameworks */,
 				18A3099027C29A7F003BECFF /* Resources */,
+				3AEDE9CFFDA0BD26164C2979 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A309BF27C29A80003BECFF /* Build configuration list for PBXNativeTarget "FixsterTests" */;
 			buildPhases = (
+				84C6DEC12AE3790876657DFD /* [CP] Check Pods Manifest.lock */,
 				18A309A427C29A80003BECFF /* Sources */,
 				18A309A527C29A80003BECFF /* Frameworks */,
 				18A309A627C29A80003BECFF /* Resources */,
@@ -177,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18A309C227C29A80003BECFF /* Build configuration list for PBXNativeTarget "FixsterUITests" */;
 			buildPhases = (
+				433A964AB03FECFA413D143F /* [CP] Check Pods Manifest.lock */,
 				18A309AE27C29A80003BECFF /* Sources */,
 				18A309AF27C29A80003BECFF /* Frameworks */,
 				18A309B027C29A80003BECFF /* Resources */,
+				75F8278BB1ACEA8617D35877 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +309,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AEDE9CFFDA0BD26164C2979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fixster/Pods-Fixster-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fixster/Pods-Fixster-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fixster/Pods-Fixster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		433A964AB03FECFA413D143F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fixster-FixsterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F8278BB1ACEA8617D35877 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fixster-FixsterUITests/Pods-Fixster-FixsterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fixster-FixsterUITests/Pods-Fixster-FixsterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fixster-FixsterUITests/Pods-Fixster-FixsterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84C6DEC12AE3790876657DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FixsterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B70EC41C4977FA7B56B1EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fixster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18A3098E27C29A7F003BECFF /* Sources */ = {
@@ -446,6 +595,7 @@
 		};
 		18A309BD27C29A80003BECFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6980AE5EFB29F21B4C8B9D /* Pods-Fixster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,6 +624,7 @@
 		};
 		18A309BE27C29A80003BECFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A8DDBE78DB6FA15F29D2134 /* Pods-Fixster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -502,6 +653,7 @@
 		};
 		18A309C027C29A80003BECFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B1D4D9D8DE9121BFB1B96E /* Pods-FixsterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +674,7 @@
 		};
 		18A309C127C29A80003BECFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AB207C19EBC75B13DF36062 /* Pods-FixsterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -542,6 +695,7 @@
 		};
 		18A309C327C29A80003BECFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E39641C57449ED6EE734C7D0 /* Pods-Fixster-FixsterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +714,7 @@
 		};
 		18A309C427C29A80003BECFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18073D42C0A483D85C59FDBE /* Pods-Fixster-FixsterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

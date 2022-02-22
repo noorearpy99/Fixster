@@ -1,0 +1,6 @@
+framework module Pods_Fixster {
+  umbrella header "Pods-Fixster-umbrella.h"
+
+  export *
+  module * { export * }
+}
