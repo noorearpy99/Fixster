@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Fixster.xcodeproj">
+      location = "group:/Users/NoorEarpy/Desktop/Fixster/Fixster.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
